@@ -1,0 +1,47 @@
+@import "icons.css";
+@import "owl.carousel.css";
+@import "owl.theme.css";
+@import "audioplayer.css";
+@import "sm-core-css.css";
+@import "sm-simple.css";
+a{color:#040000;text-decoration:none;-webkit-transition:all .25s linear;-moz-transition:all .25s linear;transition:all .25s linear;}
+a:hover{color:#ed1c2f;text-decoration:underline}
+body{background:#040000;font-family:'Source Sans Pro',sans-serif}
+footer{padding:2em;text-align:center}
+input{border:1px solid #d8d8d8;outline:0}
+input.zabala{padding:10px;}
+input.zabala.botoia{display:inline-block;}
+input.zabala.botoia:hover{background:#040000}
+img,video,embed,iframe{max-width:100%}
+#agenda a{color:#ed1c2f}
+#albo-barra{margin:3em;max-width:100%}
+#bilaketa fieldset{width:94.1%;border:1px solid #cdcdcd;margin:0;padding:0}
+#edukia{margin-left:2em;width:53%}
+#owl-example .item{text-align:center}
+#hizkuntza-menua ul{margin:0;}
+#hizkuntza-menua ul li{display:inline-block;margin-right:1em}
+#irratia{margin-top:2em}
+#logoa{width:250px;margin-left:1em}
+#logoa,.sare-sozialak{display:inline-block;vertical-align:top}
+#s{width:83.8%;background-color:#fff;border:0;float:left;font-size:14px;padding:12px 0 12px 0;text-indent:10px;border-right:0}
+#wrapper{max-width:1024px;min-width:320px;margin:0 auto;background:#fff}
+#edukia,#albo-barra{display:inline-block;vertical-align:top}
+.albistea{padding:2em 1em;border-bottom:solid 2px #040000}
+.buletina-widget{max-width:100%}
+.burua{display:inline-block;width:100%}
+.sare-sozialak{float:right;margin-right:1em;width:300px;}
+.sare-sozialak ul li{display:inline-block;margin-right:1em;}
+.sare-sozialak ul li a:hover{text-decoration:none;}
+.sare-sozialak ul li a:hover .icon-twitter:hover{color:#48b6ff}
+.sare-sozialak ul li a:hover .icon-facebook:hover{color:#3b5998}
+.sare-sozialak ul li a:hover .icon-feed:hover{color:#ff9c2a}
+.sare-sozialak ul li a i{font-size:2em}
+.botoia{border:none;background-color:#ed1c2f;color:#fff;display:inline-block;-webkit-transition:all .25s linear;-moz-transition:all .25s linear;transition:all .25s linear;}
+.botoia:hover{background-color:#040000}
+.sbutton{border:none;background-color:#ed1c2f;color:#fff;display:inline-block;float:right;padding:10px;}
+.sbutton i{font-size:1.2em}
+.menu-nagusia{font-size:1.3em;margin-bottom:1em}
+.pagination li{display:inline-block;}
+.pagination li a:hover{text-decoration:none}
+.pagination li:first-child{margin-right:2em}
+.pagination li:last-child{margin-left:2em}

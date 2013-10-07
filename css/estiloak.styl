@@ -1,0 +1,170 @@
+//mixins
+transition()
+	-webkit-transition arguments
+	-moz-transition arguments
+	transition arguments
+
+// koloreak
+baltza = #040000
+gris_iluna = #283744
+gris_klarua = #F9F5F5
+gorria = #ED1C2F
+
+@import "icons.css"
+@import "owl.carousel.css"
+@import "owl.theme.css"
+@import "audioplayer.css"
+@import "sm-core-css.css"
+@import "sm-simple.css"
+
+a
+	color baltza
+	text-decoration none
+	transition all 0.25s linear
+	&:hover
+		color gorria
+		text-decoration underline
+body
+	background baltza
+	font-family 'Source Sans Pro', sans-serif
+
+footer
+	padding 2em
+	text-align center
+input
+	border 1px solid #D8D8D8
+	outline 0
+	
+input.zabala
+	padding 10px
+	&.botoia
+		display inline-block
+		&:hover
+			background baltza
+
+
+img, video, embed, iframe
+	max-width 100%
+
+#agenda
+	a
+		color gorria
+#albo-barra
+	margin 3em
+	max-width 100%
+#bilaketa
+	fieldset
+		width 94.1%
+		border 1px solid #cdcdcd
+		margin 0
+		padding 0
+
+#edukia
+	margin-left 2em
+	width 53%
+
+#owl-example
+	.item	
+		//margin 10px
+		text-align center
+
+#hizkuntza-menua
+	ul
+		margin 0
+		li
+			display inline-block
+			margin-right 1em
+#irratia
+	margin-top 2em
+
+
+#logoa
+	width 250px
+	margin-left 1em
+
+#logoa, .sare-sozialak
+	display inline-block
+	vertical-align top
+
+#s
+	width 83.8%
+	background-color #fff
+	border 0
+	float left
+	font-size 14px
+	padding 12px 0 12px 0
+	text-indent 10px
+	border-right 0
+	
+
+#wrapper
+	max-width 1024px
+	min-width 320px
+	margin 0 auto
+	background white
+
+#edukia, #albo-barra
+	display inline-block
+	vertical-align top
+
+.albistea
+	padding 2em 1em
+	border-bottom solid 2px baltza
+
+.buletina-widget
+	max-width 100%	
+.burua
+	display inline-block
+	width 100%
+.sare-sozialak
+	float right
+	margin-right 1em
+	width 300px
+	ul
+		li
+			display inline-block
+			margin-right 1em
+			a
+				&:hover
+					text-decoration none
+					.icon-twitter:hover
+						color #48B6FF
+					.icon-facebook:hover
+						color #3B5998
+					.icon-feed:hover
+						color #FF9C2A
+				i
+					font-size 2em
+
+.botoia
+	border none
+	background-color gorria
+	color white
+	display inline-block
+	transition all 0.25s linear
+	&:hover
+		background-color baltza
+
+.sbutton
+	border none	
+	background-color gorria
+	color white
+	display inline-block
+	float right
+	padding 10px
+	i
+		font-size 1.2em
+
+.menu-nagusia
+	font-size 1.3em	
+	margin-bottom 1em
+
+.pagination
+	li
+		display inline-block
+		a:hover
+			text-decoration none
+	li:first-child
+		margin-right 2em
+	li:last-child
+		margin-left 2em
