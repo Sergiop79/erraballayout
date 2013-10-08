@@ -1,8 +1,14 @@
-//mixins
+// mixins
 transition()
 	-webkit-transition arguments
 	-moz-transition arguments
 	transition arguments
+
+column-count()
+	-webkit-column-count arguments
+	-moz-column-count arguments
+	column-count arguments
+
 
 // koloreak
 baltza = #040000
@@ -50,7 +56,7 @@ img, video, embed, iframe
 	a
 		color gorria
 #albo-barra
-	margin 3em
+	margin 0 2em
 	max-width 100%
 #bilaketa
 	fieldset
@@ -74,8 +80,6 @@ img, video, embed, iframe
 		li
 			display inline-block
 			margin-right 1em
-#irratia
-	margin-top 2em
 
 
 #logoa
@@ -95,7 +99,11 @@ img, video, embed, iframe
 	padding 12px 0 12px 0
 	text-indent 10px
 	border-right 0
-	
+
+#menu-botoia
+	font-size 1.5em
+	padding 0.5em
+	display none
 
 #wrapper
 	max-width 1024px
@@ -107,15 +115,30 @@ img, video, embed, iframe
 	display inline-block
 	vertical-align top
 
-.albistea
-	padding 2em 1em
-	border-bottom solid 2px baltza
+#scrollUp
+	bottom 20px
+	right 20px
+	height 38px
+	width 38px
+	background url(../img/top.png) no-repeat
 
+.albistea
+	padding-bottom 1em
+	border-bottom solid 2px baltza
+.albiste-irudia
+	margin-right 0.5em
+	width 30%
+.audio-player
+	width 75%
 .buletina-widget
 	max-width 100%	
 .burua
 	display inline-block
 	width 100%
+.deskribapena
+	width 66%
+	p
+		margin 0
 .sare-sozialak
 	float right
 	margin-right 1em
@@ -168,3 +191,9 @@ img, video, embed, iframe
 		margin-right 2em
 	li:last-child
 		margin-left 2em
+.albiste-irudia, .deskribapena
+	display inline-block
+	vertical-align top
+.buletina-widget, .irratia, .agenda
+	margin-bottom 1em
+@import "responsive.styl"

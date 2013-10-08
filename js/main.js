@@ -10,6 +10,10 @@ var onDocumentReady = function(){
 	
 	$('#navigation').smartmenus();
 
+	$.scrollUp({
+		scrollImg: true
+	});
+
 };
 
 
