@@ -16,14 +16,14 @@ img,video,embed,iframe{max-width:100%}
 #agenda a{color:#ed1c2f}
 #albo-barra{margin:0 2em;max-width:100%}
 #bilaketa fieldset{width:94.1%;border:1px solid #cdcdcd;margin:0;padding:0}
-#edukia{margin-left:2em;width:53%}
+#edukia{margin-left:5%;width:53%}
 #owl-example .item{text-align:center}
 #hizkuntza-menua ul{margin:0;}
 #hizkuntza-menua ul li{display:inline-block;margin-right:1em}
-#logoa{width:250px;margin-left:1em}
+#logoa{width:150px;margin-left:20%}
 #logoa,.sare-sozialak{display:inline-block;vertical-align:top}
 #s{width:83.8%;background-color:#fff;border:0;float:left;font-size:14px;padding:12px 0 12px 0;text-indent:10px;border-right:0}
-#menu-botoia{font-size:1.5em;padding:.5em;display:none}
+#menu-botoia{font-size:1.5em;padding:.5em;cursor:pointer;display:none}
 #wrapper{max-width:1024px;min-width:320px;margin:0 auto;background:#fff}
 #edukia,#albo-barra{display:inline-block;vertical-align:top}
 #scrollUp{bottom:20px;right:20px;height:38px;width:38px;background:url("../img/top.png") no-repeat}
@@ -34,7 +34,7 @@ img,video,embed,iframe{max-width:100%}
 .burua{display:inline-block;width:100%}
 .deskribapena{width:66%;}
 .deskribapena p{margin:0}
-.sare-sozialak{float:right;margin-right:1em;width:300px;}
+.sare-sozialak{float:right;margin-right:20%;width:300px;}
 .sare-sozialak ul li{display:inline-block;margin-right:1em;}
 .sare-sozialak ul li a:hover{text-decoration:none;}
 .sare-sozialak ul li a:hover .icon-twitter:hover{color:#48b6ff}
@@ -43,7 +43,7 @@ img,video,embed,iframe{max-width:100%}
 .sare-sozialak ul li a i{font-size:2em}
 .botoia{border:none;background-color:#ed1c2f;color:#fff;display:inline-block;-webkit-transition:all .25s linear;-moz-transition:all .25s linear;transition:all .25s linear;}
 .botoia:hover{background-color:#040000}
-.sbutton{border:none;background-color:#ed1c2f;color:#fff;display:inline-block;float:right;padding:10px;}
+.sbutton{border:none;background-color:#ed1c2f;margin-right:0;color:#fff;display:inline-block;float:right;padding:10px;}
 .sbutton i{font-size:1.2em}
 .menu-nagusia{font-size:1.3em;margin-bottom:1em}
 .pagination li{display:inline-block;}
@@ -52,9 +52,19 @@ img,video,embed,iframe{max-width:100%}
 .pagination li:last-child{margin-left:2em}
 .albiste-irudia,.deskribapena{display:inline-block;vertical-align:top}
 .buletina-widget,.irratia,.agenda{margin-bottom:1em}
-@media screen and (max-width:940px){#edukia{width:100%;}
+@media screen and (max-width:982px){body{width:100%}
+#albo-barra{width:93%}
+#wrapper{width:97%}
+#edukia{margin-left:2%;width:96%;}
 #edukia .albistea{width:100%;}
-#edukia .albistea .albiste-irudia{width:20%}
-#edukia .audio-player{width:60%}
-#edukia .buletina-widget,#edukia .irratia,#edukia .agenda{display:inline-block;vertical-align:top}
+#edukia .albistea .albiste-irudia{margin-right:1%;width:20%}
+.audio-player{width:300px;margin-left:28%}
+}@media screen and (max-width:902px){#albo-barra{width:90%}
+}@media screen and (max-width:770px){#logoa{margin-left:10%}
+.sare-sozialak{margin-right:10%}
+}@media screen and (max-width:632px){#edukia{width:90%;margin-left:3%}
+#menu-botoia{display:inline-block;margin-left:1em;margin-bottom:1em}
+.menu-nagusia{display:none}
+}@media screen and (max-width:602px){#logoa{margin-left:5%}
+.sare-sozialak{margin-right:3%}
 }
