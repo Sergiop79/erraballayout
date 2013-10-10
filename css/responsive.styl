@@ -25,23 +25,71 @@
 	#logoa
 		margin-left 10%
 
+	.albiste-irudia
+		width 40%
+
+	.deskribapena
+		width 60%
+	.albiste-irudia, .deskribapena
+		display inline-block
+		vertical-align middle
 	.sare-sozialak
 		margin-right 10%
 
 @media screen and (max-width:632px)
+	body
+		background-color white
+		width 95%
 	#edukia
 		width 90%
 		margin-left 3%
+		.albistea
+			.albiste-irudia
+				width 30%
+			.deskribapena
+				60%
 	#menu-botoia
 		display inline-block
 		margin-left 1em
 		margin-bottom 1em
 	.menu-nagusia
 		display none
-	
-@media screen and (max-width:602px)
-	#logoa
-		margin-left 5%
 
+@media screen and (max-width:626px)
+	#logoa, .sare-sozialak
+		display inline-block
+		vertical-align top
+		margin 0.5em auto
+	.burua
+		margin-left 5%
+@media screen and (max-width:487px)
+		#logoa
+			margin-left 28%
+		.sare-sozialak
+			margin-left 15%
+		#logoa, .sare-sozialak
+			float none
+		.audio-player
+			margin-left 14%
+@media screen and (max-width:414px)
+		body
+			width 90%
+		#edukia
+			.albistea
+				.albiste-irudia, .deskribapena
+					width 100%
+				.audio-player
+					margin-left 0
+@media screen and (max-width:321px)
+	#wrapper
+		max-width 100%
+	#albo-barra
+		margin 5%
+	#logoa
+		margin-left 25%
 	.sare-sozialak
-		margin-right 3%
+		margin-left 6%
+	.burua
+		margin 0
+	.botoia
+		margin-top 0.5em
