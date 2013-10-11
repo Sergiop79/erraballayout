@@ -129,7 +129,7 @@
 ---------------------------------------------------------------*/
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
 
 	/* The following will make the sub menus collapsible for small screen devices (it's not recommended editing these) */
 	ul.sm-simple{width:auto !important;}
