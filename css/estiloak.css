@@ -15,6 +15,11 @@ input.zabala.botoia:hover{background:#040000}
 img,video,embed,iframe{max-width:100%}
 #agenda a{color:#ed1c2f}
 #albo-barra{margin:0 2em;max-width:100%}
+#albiste-zerrenda .titulua{color:#ed1c2f;margin-left:1em}
+#albiste-zerrenda .albistea{margin:1em auto;width:95%;}
+#albiste-zerrenda .albistea .albiste-irudia{width:15%}
+#albiste-zerrenda .albistea .deskribapena{width:75%}
+#albiste-zerrenda .albistea .audio-player{width:300px;margin:.2em auto}
 #bilaketa fieldset{width:94.1%;border:1px solid #cdcdcd;margin:0;padding:0}
 #edukia{margin-left:5%;width:53%;}
 #edukia .albiste-gehiago{margin-top:.5em;padding:.5em 1em;}
@@ -38,6 +43,11 @@ img,video,embed,iframe{max-width:100%}
 .deskribapena{width:66%;}
 .deskribapena p{margin:.5em 0}
 .gehiago a{color:#ed1c2f}
+.paginator{text-align:center;}
+.paginator ul li{display:inline-block;vertical-align:middle;}
+.paginator ul li a{text-decoration:none}
+.paginator ul li:first-child{margin-right:1em}
+.paginator ul li:last-child{margin-left:1em}
 .sare-sozialak{float:right;margin-right:20%;width:300px;}
 .sare-sozialak ul li{display:inline-block;margin-right:1em;}
 .sare-sozialak ul li a:hover{text-decoration:none;}
@@ -60,8 +70,10 @@ img,video,embed,iframe{max-width:100%}
 #edukia{margin-left:2%;width:96%;}
 #edukia .albistea{width:100%;}
 #edukia .albistea .albiste-irudia{margin-right:1%;width:20%}
-.audio-player{width:300px;margin-left:28%}
+#edukia .albistea .audio-player{width:300px;margin-left:28%}
 }@media screen and (max-width:902px){#albo-barra{width:90%}
+#albiste-zerrenda .albistea .albiste-irudia{width:20%}
+#albiste-zerrenda .albistea .deskribapena{width:70%}
 }@media screen and (max-width:770px){#logoa{margin-left:10%}
 .albiste-irudia{width:40%}
 .deskribapena{width:60%}
