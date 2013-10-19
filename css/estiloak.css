@@ -38,6 +38,11 @@ img,video,embed,iframe{max-width:100%}
 .albistea{padding-bottom:1em;border-bottom:solid 2px #040000}
 .albiste-irudia{margin-right:.5em;width:30%}
 .audio-player{width:75%}
+.bidea{padding:.25em;background-color:#f9f5f5;font-size:.9em;color:#283744;}
+.bidea a{color:#ed1c2f;text-decoration:none}
+.bidea a:hover{text-decoration:underline}
+.bidea ul li{display:inline-block;}
+.bidea ul li .banatzailea{margin:0 .2em}
 .buletina-widget{max-width:100%}
 .burua{display:inline-block;width:100%}
 .deskribapena{width:66%;}
@@ -84,9 +89,13 @@ img,video,embed,iframe{max-width:100%}
 #edukia .albistea .albiste-irudia{width:30%}
 }@media screen and (max-width:626px){#logoa,.sare-sozialak{display:inline-block;vertical-align:top;margin:.5em auto}
 .burua{margin-left:5%}
+}@media screen and (max-width:600px){#albiste-zerrenda .albistea .albiste-irudia{width:40%}
+#albiste-zerrenda .albistea .deskribapena{width:50%}
 }@media screen and (max-width:487px){#logoa{margin-left:28%}
 .sare-sozialak{margin-left:15%}
 #logoa,.sare-sozialak{float:none}
+#albiste-zerrenda .albistea .albiste-irudia{width:100%}
+#albiste-zerrenda .albistea .deskribapena{width:100%}
 .audio-player{margin-left:14%}
 }@media screen and (max-width:414px){body{width:90%}
 #edukia .albistea .albiste-irudia,#edukia .albistea .deskribapena{width:100%}
