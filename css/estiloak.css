@@ -15,7 +15,6 @@ input.zabala.botoia:hover{background:#040000}
 img,video,embed,iframe{max-width:100%}
 #agenda a{color:#ed1c2f}
 #albo-barra{margin:0 2em;max-width:100%}
-#albiste-zerrenda .titulua{color:#ed1c2f;margin-left:1em}
 #albiste-zerrenda .albistea{margin:1em auto;width:95%;}
 #albiste-zerrenda .albistea .albiste-irudia{width:15%}
 #albiste-zerrenda .albistea .deskribapena{width:75%}
@@ -35,7 +34,11 @@ img,video,embed,iframe{max-width:100%}
 #wrapper{max-width:1024px;min-width:320px;margin:0 auto;background:#fff}
 #edukia,#albo-barra{display:inline-block;vertical-align:top}
 #scrollUp{bottom:20px;right:20px;height:38px;width:38px;background:url("../img/top.png") no-repeat}
+#disko-zerrenda{text-align:center}
 .albistea{padding-bottom:1em;border-bottom:solid 2px #040000}
+.albiste-bakarra{width:95%;margin:0 auto;}
+.albiste-bakarra .albiste-irudia{width:25%}
+.albiste-bakarra .audio-player{width:300px;margin:.5em auto}
 .albiste-irudia{margin-right:.5em;width:30%}
 .audio-player{width:75%}
 .bidea{padding:.25em;background-color:#f9f5f5;font-size:.9em;color:#283744;}
@@ -47,8 +50,14 @@ img,video,embed,iframe{max-width:100%}
 .burua{display:inline-block;width:100%}
 .deskribapena{width:66%;}
 .deskribapena p{margin:.5em 0}
+.disko-zerrenda{display:inline-block;margin:auto;}
+.disko-zerrenda .disko-azala{display:inline-block;vertical-align:top;width:300px;margin:.5em;padding:.2em;border:solid #ccc 1px;}
+.disko-zerrenda .disko-azala figcaption{padding:0 .5em;}
+.disko-zerrenda .disko-azala figcaption p{margin:.2em 0;text-align:left}
+.disko-zerrenda .disko-azala img{height:300px}
 .gehiago a{color:#ed1c2f}
 .paginator{text-align:center;}
+.paginator ul{padding:0;}
 .paginator ul li{display:inline-block;vertical-align:middle;}
 .paginator ul li a{text-decoration:none}
 .paginator ul li:first-child{margin-right:1em}
@@ -60,6 +69,7 @@ img,video,embed,iframe{max-width:100%}
 .sare-sozialak ul li a:hover .icon-facebook:hover{color:#3b5998}
 .sare-sozialak ul li a:hover .icon-feed:hover{color:#ff9c2a}
 .sare-sozialak ul li a i{font-size:2em}
+.titulua{color:#ed1c2f;margin-left:1em;text-align:left}
 .botoia{border:none;background-color:#ed1c2f;color:#fff;display:inline-block;-webkit-transition:all .25s linear;-moz-transition:all .25s linear;transition:all .25s linear;}
 .botoia:hover{background-color:#040000}
 .sbutton{border:none;background-color:#ed1c2f;margin-right:0;color:#fff;display:inline-block;float:right;padding:10px;}
@@ -91,12 +101,14 @@ img,video,embed,iframe{max-width:100%}
 .burua{margin-left:5%}
 }@media screen and (max-width:600px){#albiste-zerrenda .albistea .albiste-irudia{width:40%}
 #albiste-zerrenda .albistea .deskribapena{width:50%}
+.albiste-bakarra .albiste-irudia{width:30%}
 }@media screen and (max-width:487px){#logoa{margin-left:28%}
 .sare-sozialak{margin-left:15%}
 #logoa,.sare-sozialak{float:none}
 #albiste-zerrenda .albistea .albiste-irudia{width:100%}
 #albiste-zerrenda .albistea .deskribapena{width:100%}
 .audio-player{margin-left:14%}
+.albiste-bakarra .deskribapena,.albiste-bakarra .albiste-irudia{width:100%}
 }@media screen and (max-width:414px){body{width:90%}
 #edukia .albistea .albiste-irudia,#edukia .albistea .deskribapena{width:100%}
 #edukia .albistea .audio-player{margin-left:0}
