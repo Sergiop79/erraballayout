@@ -50,6 +50,20 @@ img,video,embed,iframe{max-width:100%}
 .burua{display:inline-block;width:100%}
 .deskribapena{width:66%;}
 .deskribapena p{margin:.5em 0}
+.disko-fitxa{width:60%;margin:0 auto;}
+.disko-fitxa figure{width:60%}
+.disko-fitxa ul li{list-style:none;}
+.disko-fitxa ul li .botoia-denda{margin-top:.5em;}
+.disko-fitxa ul li .botoia-denda a{background:#ed1c2f;color:#fff;padding:.2em .5em;text-decoration:none;font-weight:bold}
+.disko-fitxa ul li .botoia-denda a:hover{background:#040000}
+.disko-fitxa ul li a{color:#f00;text-decoration:underline}
+.disko-fitxa figure,.disko-fitxa ul{display:inline-block;vertical-align:middle}
+.disko-deskribapena,.disko-testua{margin:0 auto;width:90%}
+.disko-erlazionatuak h4{margin-left:2em}
+.disko-erlazionatuak ul{margin:2em auto;}
+.disko-erlazionatuak ul li{display:inline-block;vertical-align:top;margin-left:1%;}
+.disko-erlazionatuak ul li figure img{width:200px;height:200px}
+.disko-erlazionatuak ul li figcaption p{margin:.5em 0}
 .disko-zerrenda{display:inline-block;margin:auto;}
 .disko-zerrenda .disko-azala{display:inline-block;vertical-align:top;width:300px;margin:.5em;padding:.2em;border:solid #ccc 1px;}
 .disko-zerrenda .disko-azala figcaption{padding:0 .5em;}
@@ -86,6 +100,7 @@ img,video,embed,iframe{max-width:100%}
 #edukia .albistea{width:100%;}
 #edukia .albistea .albiste-irudia{margin-right:1%;width:20%}
 #edukia .albistea .audio-player{width:300px;margin-left:28%}
+}@media screen and (max-width:966px){.disko-fitxa{width:70%}
 }@media screen and (max-width:902px){#albo-barra{width:90%}
 #albiste-zerrenda .albistea .albiste-irudia{width:20%}
 #albiste-zerrenda .albistea .deskribapena{width:70%}
@@ -102,6 +117,7 @@ img,video,embed,iframe{max-width:100%}
 }@media screen and (max-width:600px){#albiste-zerrenda .albistea .albiste-irudia{width:40%}
 #albiste-zerrenda .albistea .deskribapena{width:50%}
 .albiste-bakarra .albiste-irudia{width:30%}
+.disko-fitxa figure{width:80%}
 }@media screen and (max-width:487px){#logoa{margin-left:28%}
 .sare-sozialak{margin-left:15%}
 #logoa,.sare-sozialak{float:none}
@@ -109,6 +125,7 @@ img,video,embed,iframe{max-width:100%}
 #albiste-zerrenda .albistea .deskribapena{width:100%}
 .audio-player{margin-left:14%}
 .albiste-bakarra .deskribapena,.albiste-bakarra .albiste-irudia{width:100%}
+.disko-fitxa figure{width:99%}
 }@media screen and (max-width:414px){body{width:90%}
 #edukia .albistea .albiste-irudia,#edukia .albistea .deskribapena{width:100%}
 #edukia .albistea .audio-player{margin-left:0}
