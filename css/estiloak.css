@@ -14,6 +14,11 @@ input.zabala.botoia{display:inline-block;}
 input.zabala.botoia:hover{background:#040000}
 img,video,embed,iframe{max-width:100%}
 #agenda a{color:#ed1c2f}
+#agenda-zerrenda{width:95%;margin:0 auto;}
+#agenda-zerrenda .ebentua{border:solid 1px #ddd;display:inline-block;vertical-align:top;margin-left:1em;margin-top:1em;padding:1em;width:16em;}
+#agenda-zerrenda .ebentua figure{width:3.5em}
+#agenda-zerrenda .ebentua figure,#agenda-zerrenda .ebentua .ebentu-datuak{display:inline-block;vertical-align:top}
+#agenda-zerrenda .ebentua .ebentu-datuak{width:70%;margin-left:1em}
 #albo-barra{margin:0 2em;max-width:100%}
 #albiste-zerrenda .albistea{margin:1em auto;width:95%;}
 #albiste-zerrenda .albistea .albiste-irudia{width:15%}
