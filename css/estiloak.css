@@ -14,6 +14,12 @@ input.zabala.botoia{display:inline-block;}
 input.zabala.botoia:hover{background:#040000}
 img,video,embed,iframe{max-width:100%}
 #agenda a{color:#ed1c2f}
+#agenda-ebentua{width:95%;margin:0 auto;}
+#agenda-ebentua .agenda-logo{margin-left:2%;width:100px}
+#agenda-ebentua .ebentua-deskribapena{font-weight:bold}
+#agenda-ebentua .ebentua-fitxa ul li{list-style-type:circle}
+#agenda-ebentua .ebentua-deskribapena,#agenda-ebentua .ebentua-testua{margin:1em .5em}
+#agenda-ebentua .ebentua-fitxa,#agenda-ebentua .agenda-logo{display:inline-block;vertical-align:top}
 #agenda-zerrenda{width:95%;margin:0 auto;}
 #agenda-zerrenda .ebentua{border:solid 1px #ddd;display:inline-block;vertical-align:top;margin-left:1em;margin-top:1em;padding:1em;width:16em;}
 #agenda-zerrenda .ebentua figure{width:3.5em}
@@ -32,6 +38,11 @@ img,video,embed,iframe{max-width:100%}
 #owl-example .item{text-align:center}
 #hizkuntza-menua ul{margin:0;}
 #hizkuntza-menua ul li{display:inline-block;margin-right:1em}
+#hemeroteka-zerrenda{width:95%;margin:0 auto;}
+#hemeroteka-zerrenda a{color:#ed1c2f}
+#hemeroteka-zerrenda .zerrenda{-webkit-column-count:3;-moz-column-count:3;column-count:3;}
+#hemeroteka-zerrenda .zerrenda ul{padding:20px;}
+#hemeroteka-zerrenda .zerrenda ul li{margin-bottom:1em}
 #logoa{width:150px;margin-left:20%}
 #logoa,.sare-sozialak{display:inline-block;vertical-align:top}
 #s{width:83.8%;background-color:#fff;border:0;float:left;font-size:14px;padding:12px 0 12px 0;text-indent:10px;border-right:0}
@@ -109,7 +120,8 @@ img,video,embed,iframe{max-width:100%}
 }@media screen and (max-width:902px){#albo-barra{width:90%}
 #albiste-zerrenda .albistea .albiste-irudia{width:20%}
 #albiste-zerrenda .albistea .deskribapena{width:70%}
-}@media screen and (max-width:770px){#logoa{margin-left:10%}
+}@media screen and (max-width:770px){#hemeroteka-zerrenda .zerrenda{-webkit-column-count:2;-moz-column-count:2;column-count:2}
+#logoa{margin-left:10%}
 .albiste-irudia{width:40%}
 .deskribapena{width:60%}
 .albiste-irudia,.deskribapena{display:inline-block;vertical-align:middle}
@@ -123,7 +135,8 @@ img,video,embed,iframe{max-width:100%}
 #albiste-zerrenda .albistea .deskribapena{width:50%}
 .albiste-bakarra .albiste-irudia{width:30%}
 .disko-fitxa figure{width:80%}
-}@media screen and (max-width:487px){#logoa{margin-left:28%}
+}@media screen and (max-width:487px){#hemeroteka-zerrenda .zerrenda{-webkit-column-count:1;-moz-column-count:1;column-count:1}
+#logoa{margin-left:28%}
 .sare-sozialak{margin-left:15%}
 #logoa,.sare-sozialak{float:none}
 #albiste-zerrenda .albistea .albiste-irudia{width:100%}
