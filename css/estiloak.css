@@ -43,6 +43,7 @@ img,video,embed,iframe{max-width:100%}
 #edukia .albiste-gehiago a{color:#fff}
 #edukia .albiste-gehiago a:hover{text-decoration:none}
 #owl-example .item{text-align:center}
+#galleria{background:#000;width:100%;height:400px}
 #hizkuntza-menua ul{margin:0;}
 #hizkuntza-menua ul li{display:inline-block;margin-right:1em}
 #hemeroteka-bakarra{width:95%;margin:0 auto;}
@@ -79,6 +80,8 @@ img,video,embed,iframe{max-width:100%}
 .bidea a:hover{text-decoration:underline}
 .bidea ul li{display:inline-block;}
 .bidea ul li .banatzailea{margin:0 .2em}
+.bideo-kutxa{height:0;overflow:hidden;padding-bottom:56.25%;padding-top:30px;position:relative;}
+.bideo-kutxa iframe,.bideo-kutxa embed,.bideo-kutxa object,.bideo-kutxa video{height:100%;left:0;position:absolute;top:0;width:100%}
 .buletina-widget{max-width:100%}
 .burua{display:inline-block;width:100%}
 .deskribapena{width:66%;}

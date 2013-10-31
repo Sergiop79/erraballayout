@@ -20,6 +20,15 @@ var onDocumentReady = function(){
 		$menuNagusia.slideToggle();
 	});
 
+	// Argazki galeria
+	if (Galleria){
+		Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+		Galleria.run('#galleria', {
+			autoplay: 5000
+		});
+	} else {
+		return;
+	};
 };
 
 
