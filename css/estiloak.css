@@ -47,9 +47,6 @@ img,video,embed,iframe{max-width:100%}
 #hizkuntza-menua ul{margin:0;}
 #hizkuntza-menua ul li{display:inline-block;margin-right:1em}
 #hemeroteka-bakarra{width:95%;margin:0 auto;}
-#hemeroteka-bakarra .pdf-jeitsi{margin:1em;}
-#hemeroteka-bakarra .pdf-jeitsi a{background:#ed1c2f;color:#fff;font-weight:bold;padding:.5em}
-#hemeroteka-bakarra .pdf-jeitsi a:hover{background:#040000;text-decoration:none}
 #hemeroteka-bakarra .titulua{margin:.5em 0}
 #hemeroteka-zerrenda{width:95%;margin:0 auto;}
 #hemeroteka-zerrenda a{color:#ed1c2f}
@@ -125,6 +122,9 @@ img,video,embed,iframe{max-width:100%}
 .sbutton{border:none;background-color:#ed1c2f;margin-right:0;color:#fff;display:inline-block;float:right;padding:10px;}
 .sbutton i{font-size:1.2em}
 .menu-nagusia{font-size:1.3em;margin-bottom:1em}
+.pdf-jeitsi{margin:1em;}
+.pdf-jeitsi a{background:#ed1c2f;color:#fff;font-weight:bold;padding:.5em}
+.pdf-jeitsi a:hover{background:#040000;text-decoration:none}
 .albiste-irudia,.deskribapena{display:inline-block;vertical-align:top}
 .buletina-widget,.irratia,.agenda{margin-bottom:1em}
 @media screen and (max-width:1024px){#menu-botoia{display:inline-block;margin-left:1em;margin-bottom:1em}
