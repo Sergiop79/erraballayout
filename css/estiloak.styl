@@ -14,28 +14,29 @@ column-count()
 baltza = #040000
 gris_iluna = #283744
 gris_klarua = #F9F5F5
+gris_data = #777777
 gorria = #ED1C2F
 
 @import "icons.css"
 @import "owl.carousel.css"
 @import "owl.theme.css"
-@import "audioplayer.css"
 @import "sm-core-css.css"
 @import "sm-simple.css"
+@import "audioplayer.styl"
 
 a
-	color baltza
+	color gorria
 	text-decoration none
-	transition all 0.25s linear
 	&:hover
-		color gorria
+		color baltza
 		text-decoration underline
 body
 	background baltza
 	font-family 'Source Sans Pro', sans-serif
 
 footer
-	padding 2em
+	margin 0
+	padding 1em
 	text-align center
 input
 	border 1px solid #D8D8D8
@@ -55,6 +56,8 @@ img, video, embed, iframe
 #agenda
 	a
 		color gorria
+	ul
+		padding 0 0 0 20px
 
 #agenda-ebentua
 	width 95%	
@@ -94,19 +97,8 @@ img, video, embed, iframe
 			width 70%
 			margin-left 1em
 #albo-barra
-	margin 0 2em
-	max-width 100%
-#albiste-zerrenda
-	.albistea
-		margin 1em auto
-		width 95%
-		.albiste-irudia
-			width 15%
-		.deskribapena
-			width 75%
-		.audio-player
-			width 300px
-			margin 0.2em auto
+	margin-left 1%
+	width 30%
 #artista-edukia
 	margin 1em 4%
 	width 70%
@@ -137,8 +129,32 @@ img, video, embed, iframe
 		padding 0
 
 #edukia
-	margin-left 5%
-	width 53%
+	h2
+		margin 0
+		padding 0
+	width 65%
+	.albistea
+		padding-top 1em
+		padding-bottom 1em
+		border-bottom solid 1px gris_iluna
+		.deskribapena
+			margin-right 10px
+			text-align justify
+			width 67%
+			h3
+				font-size 1.5em
+				margin 0
+				text-align left
+			span
+				color gris_data
+			.audio-player
+				width 320px
+		.img-thumb
+			width 30%
+		.deskribapena
+		.img-thumb
+			display inline-block
+			vertical-align top
 	.albiste-gehiago
 		margin-top .5em
 		padding .5em 1em
@@ -146,11 +162,13 @@ img, video, embed, iframe
 			color white
 		a:hover
 			text-decoration none
-
 #owl-example
+	margin-bottom 10px
 	.item	
-		//margin 10px
 		text-align center
+		img
+			border solid 1px gris_data
+			height 171px
 #galleria
 	background #000
 	width 100%
@@ -181,6 +199,8 @@ img, video, embed, iframe
 				margin-bottom 1em
 #logoa
 	width 150px
+	margin-bottom 0.3em
+	margin-top 0.3em
 	margin-left 20%
 
 #logoa, .sare-sozialak
@@ -209,9 +229,11 @@ img, video, embed, iframe
 	margin 0 auto
 	background white
 
-#edukia, #albo-barra
+#edukia
+#albo-barra
 	display inline-block
 	vertical-align top
+	margin-left 1em
 
 #scrollUp
 	bottom 20px
@@ -222,20 +244,6 @@ img, video, embed, iframe
 
 #disko-zerrenda
 	text-align center
-.albistea
-	padding-bottom 1em
-	border-bottom solid 2px baltza
-.albiste-bakarra
-	width 95%
-	margin 0 auto
-	.albiste-irudia
-		width 25%
-	.audio-player
-		width 300px
-		margin 0.5em auto
-.albiste-irudia
-	margin-right 0.5em
-	width 30%
 .artista-menua
 	padding 2em 0
 	width 150px
@@ -256,8 +264,6 @@ img, video, embed, iframe
 			a:hover 
 				text-decoration none
 				background gorria
-.audio-player
-	width 75%
 .bidea
 	padding .25em
 	background-color gris_klarua
@@ -273,6 +279,9 @@ img, video, embed, iframe
 			display inline-block
 			.banatzailea
 				margin 0 .2em
+.irratia
+	width 100%
+
 .bideo-kutxa
 	height 0
 	overflow hidden
@@ -289,14 +298,16 @@ img, video, embed, iframe
 		top 0
 		width 100%
 .buletina-widget
-	max-width 100%	
+	max-width 100%
+	h3
+		margin-right 0.5em
+	h3
+	form
+		display inline-block
+		vertical-align middle
 .burua
 	display inline-block
 	width 100%
-.deskribapena
-	width 66%
-	p
-		margin 0.5em 0
 .disko-fitxa
 	width 60%
 	margin 0 auto
@@ -346,10 +357,14 @@ img, video, embed, iframe
 	.disko-azala
 		display inline-block
 		vertical-align top
-		width 300px
+		width 210px
 		margin 0.5em
 		padding 0.2em
 		border solid #cccccc 1px
+		a
+			img
+				width 200px
+				height 200px
 		figcaption
 			padding 0 0.5em
 			p
@@ -382,6 +397,7 @@ img, video, embed, iframe
 			display inline-block
 			margin-right 1em
 			a
+				color baltza
 				&:hover
 					text-decoration none
 					.icon-twitter:hover
@@ -432,9 +448,7 @@ img, video, embed, iframe
 		background baltza
 		text-decoration none
 
-.albiste-irudia, .deskribapena
-	display inline-block
-	vertical-align top
 .buletina-widget, .irratia, .agenda
 	margin-bottom 1em
+
 @import "responsive.styl"
