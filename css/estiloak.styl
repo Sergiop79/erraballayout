@@ -56,6 +56,8 @@ img, video, embed, iframe
 #agenda
 	a
 		color gorria
+	a:hover
+		color baltza
 	ul
 		padding 0 0 0 20px
 
@@ -83,22 +85,67 @@ img, video, embed, iframe
 	.ebentua
 		border solid 1px #dddddd
 		display inline-block
+		height 130px
 		vertical-align top
-		margin-left 1em
-		margin-top 1em
-		padding 1em
-		width 16em
+		margin-left .8em
+		margin-top .8em
+		padding .5em
+		width 18em
+		transition all 0.5s ease
 		figure
 			width 3.5em
 		figure, .ebentu-datuak
 			display inline-block
 			vertical-align top
+			margin-left .5em
 		.ebentu-datuak
-			width 70%
-			margin-left 1em
+			h3
+				margin 0 
+			p
+				margin .2em 0
+			width 13em
+	.ebentua:hover
+		border solid 1px gorria
+	.titulua
+		color baltza
+		margin-bottom 0
+		margin-top .3em
 #albo-barra
 	margin-left 1%
 	width 30%
+
+#albiste-zerrenda
+	h2
+		margin .2em 0 0 2%
+		a
+			font-family 'Source Sans Pro', sans-serif
+			font-weight 700
+	.albistea
+		h3
+			font-size 1.5em
+			font-weight 700
+			margin 0
+			text-align left
+		border-bottom solid gris_iluna 1px
+		padding-bottom .5em
+		margin-top .5em
+		.deskribapena
+			margin-left 2%
+			text-align justify
+			width 80%
+			.audio-player
+				width 320px
+			.data-deskribapena
+			.entzun
+				color gris_data
+		.img-thumb
+			margin-left 1%
+			margin-right 2
+			width 15%
+		.deskribapena
+		.img-thumb
+			display inline-block
+			vertical-align top
 #artista-edukia
 	margin 1em 4%
 	width 70%
@@ -264,6 +311,10 @@ img, video, embed, iframe
 			a:hover 
 				text-decoration none
 				background gorria
+
+.albiste-bakarra
+	width 96%
+
 .bidea
 	padding .25em
 	background-color gris_klarua
@@ -275,6 +326,7 @@ img, video, embed, iframe
 	a:hover
 		text-decoration underline
 	ul
+		margin .3em 0
 		li
 			display inline-block
 			.banatzailea
@@ -398,16 +450,20 @@ img, video, embed, iframe
 			margin-right 1em
 			a
 				color baltza
-				&:hover
-					text-decoration none
-					.icon-twitter:hover
-						color #48B6FF
-					.icon-facebook:hover
-						color #3B5998
-					.icon-feed:hover
-						color #FF9C2A
-				i
-					font-size 2em
+				.icon-twitter
+				.icon-facebook
+				.icon-feed
+					transition all ease 0.5s
+			a:hover
+				text-decoration none
+				.icon-twitter:hover
+					color #48B6FF
+				.icon-facebook:hover
+					color #3B5998
+				.icon-feed:hover
+					color #FF9C2A
+			i
+				font-size 2em
 
 .titulua
 	color gorria
@@ -435,7 +491,7 @@ img, video, embed, iframe
 
 .menu-nagusia
 	font-size 1.3em	
-	margin-bottom 1em
+	margin-bottom .5em
 
 .pdf-jeitsi
 	margin 1em
